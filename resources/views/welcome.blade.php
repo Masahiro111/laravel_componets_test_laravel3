@@ -422,11 +422,7 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <h1 class="text-2xl">Laravel Components</h1>
-                <x-alert
-                         :message="$message"
-                         type="success"
-                         class="font-bold"
-                         style="font-style:italic" />
+                <x-alert />
             </div>
         </div>
 
