@@ -23,6 +23,4 @@ Route::get('/dashboard', function () {
 
 require __DIR__ . '/auth.php';
 
-Route::prefix('admin')->name('admin.')->group(function () {
-    require __DIR__ . '/admin.php';
-});
+require __DIR__ . '/admin.php';
